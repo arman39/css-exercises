@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container 
 .text {
     background-color: yellow; 
@@ -5,3 +6,12 @@
     font-size: 20px; 
     text-align: center;
   }
+=======
+.container
+.text {
+  background-color: yellow; 
+  color:red ;
+  font-size: 20px; 
+  text-align: center;
+}
+>>>>>>> @{u}
