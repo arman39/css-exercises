@@ -10,7 +10,7 @@
 #divWithGreenBG {
   background-color: rgba(126, 246, 123, 1) ;
   font-size: 24px ;
-  text-weight: bold ;
+  font-weight: bold ;
 }
 
 .coolerParagraph {
