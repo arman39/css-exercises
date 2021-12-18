@@ -2,3 +2,7 @@ p {
   background-color: rgba(251, 164, 162, 1) ;
   font-family: Verdana, sans-serif ;
 }
+#seconddiv {
+  color: blue ;
+  font-size: 36px ;
+}
