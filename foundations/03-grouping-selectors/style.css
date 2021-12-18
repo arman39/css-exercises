@@ -1,0 +1,14 @@
+.both {
+  font-size: 28px ;
+  font-family: Helvetica, "Times New Roman", sans-serif ;
+}
+
+.whiteonBlack {
+  color: white ;
+  background-color: black ;
+}
+
+.blackonYellow {
+  color: black ; 
+  background-color: yellow ;
+}
