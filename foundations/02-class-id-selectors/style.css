@@ -2,7 +2,13 @@ p {
   background-color: rgba(251, 164, 162, 1) ;
   font-family: Verdana, sans-serif ;
 }
-#seconddiv {
+#divWithBlueText {
   color: blue ;
   font-size: 36px ;
+}
+
+#divWithGreenBG {
+  background-color: rgba(126, 246, 123, 1) ;
+  font-size: 24px ;
+  text-weight: bold ;
 }
