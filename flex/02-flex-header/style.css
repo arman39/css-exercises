@@ -2,19 +2,21 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
+  flex: 1, 1, auto ;
+  flex-flow: row, wrap;
   justify-content: space-between;
+  align-items: center;
 
 }
 
 .logo {
+  display: flex;
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
   margin: 8px;
-  display: flex;
-  justify-content: center;
 }
 
 ul {
@@ -26,6 +28,7 @@ ul {
 }
 
 a {
+  display: flex;
   font-size: 22px;
   background: white;
   padding: 8px;
@@ -33,7 +36,7 @@ a {
   text-decoration: none;
   margin: 8px;
 }
-
+/*  
 .right-links {
   display: flex;
   align-items: center;
@@ -43,4 +46,4 @@ a {
 .left-links {
   display: flex;
   align-items: center;
-}
+} */
