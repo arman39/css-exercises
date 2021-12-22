@@ -13,6 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: left;
 }
 
 .modal {
@@ -20,6 +21,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
+  display: flex;
+  /* flex-flow: row, wrap;
+  flex: 1, 1, auto ; */
+  gap: 16px;
 }
 
 .icon {
@@ -33,6 +39,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -63,4 +70,29 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.column_direction {
+  display: flex;
+  flex-flow: row, wrap;
+  justify-content: space-between;
+  flex: 1, 0 ;
+
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bold ;
+  margin-bottom: 8px ;
+}
+
+.bottom {
+  display: flex;
+  gap: 8px ;
+  margin-top: 8px;
 }
